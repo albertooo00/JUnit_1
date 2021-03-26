@@ -54,7 +54,7 @@ class BonusServiceTest {
     void shouldCalculateForDonTRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
-        long amount = 1_000_000_060;
+        long amount = 1_000_000_600;
         boolean registered = false;
         long expected = 500;
 
