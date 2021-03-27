@@ -55,7 +55,7 @@ class BonusServiceTest {
         BonusService service = new BonusService();
 
         long amount = 1_000_000_600;
-        boolean registered = false;
+        boolean registered = true;
         long expected = 500;
 
         long actual = service.calculate(amount, registered);
